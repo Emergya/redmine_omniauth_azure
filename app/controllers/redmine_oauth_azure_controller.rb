@@ -2,7 +2,7 @@ require 'account_controller'
 require 'json'
 require 'jwt'
 
-class RedmineOauthController < AccountController
+class RedmineOauthAzureController < AccountController
   include Helpers::MailHelper
   include Helpers::Checker
   def oauth_azure
